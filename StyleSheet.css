@@ -1,0 +1,299 @@
+/* CSS */
+*{
+    font-family: 'IBM Plex Mono', monospace;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #ebebeb!important;
+}
+
+.negro{
+    color:black;
+}
+.menu{
+    background: #00A1B1;
+    font-size: 16px;
+    color: #060A24!important;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+.logo{
+    width:40%!important;
+    border: .5px solid white;
+    border-radius: 50%;
+}
+.btnTitle{
+    background-color: #00F3BB;
+    padding: 16px 59px;
+    border: 0px solid #ebebeb;
+    font-size: 18px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    font-weight: bold;
+    position: relative;
+    z-index: 9;
+    display: inline-block;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00F3BB), to(#00F3BB));
+    background: -webkit-linear-gradient(top, #00F3BB, #00F3BB);
+    background: -moz-linear-gradient(top, #00F3BB, #00F3BB);
+    background: -o-linear-gradient(top, #00F3BB, #00F3BB);
+    background: linear-gradient(top, #00F3BB, #00F3BB);
+}
+
+.btninside{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#0000FE), to(#00F0B8));
+    background: -webkit-linear-gradient(top, #0000FE, #00F0B8);
+    background: -moz-linear-gradient(top, #0000FE, #00F0B8);
+    background: -o-linear-gradient(top, #0000FE, #00F0B8);
+    background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+}
+.btnTitle:hover .btninside{
+    opacity: 1;
+}
+
+.section1 {
+    height: 20rem;
+    margin-left: 13.9%;
+    margin-top: 3.1%;
+}
+
+.section2 {
+    position: relative;
+    background-image: url("img/1950s-traders-on-floor.jpg");/*linear-gradient( 225deg, #0000FF 0%, #0000A3 100%); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.section3{
+    height:500px;
+}
+.section4{
+    padding-bottom:9rem;
+    position: relative;
+    background-image: url("Img/Forex-market-trading.jpg");/*linear-gradient( 225deg, #0000FF 0%, #0000A3 100%); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.svg1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10vw;
+    border: 0px solid white;
+    /* set height to pixels if you want angle to change with screen width */
+}
+
+.svg2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vw;
+    /* set height to pixels if you want angle to change with screen width */
+}
+
+.innerSection{
+    position: absolute;
+    top:20%;
+    left:10%;
+}
+
+.innerSection2{
+    margin:20% 0px;
+}
+.title{
+    font-size: 64px;
+    color: #060A24;
+    letter-spacing: 0;
+}
+.subtitle{
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 24px;
+    width: 57.6%;
+}
+
+.container3{
+    padding-left:50% !important;
+}
+.title3{
+    font-size: 48px;
+    color: #060A24;
+    letter-spacing: 0;
+}
+.title4{
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    width: 100%;
+    padding-top: 12rem;
+    text-align: center;
+}
+.subtitle3{
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 24px;
+    width: 74%;
+}
+.title1{
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    padding-left: 10%!important;
+    width:100%!important;
+    padding-top: 12rem;
+}
+.title2{
+    font-size: 48px;
+    letter-spacing: 0;
+    padding-left: 10%;
+    padding-bottom:2rem;
+    width:100%;
+}
+.phoneImage{
+    margin-top: -150px;
+    width: 410px;
+    height: 660px;
+}
+.paddingcero{
+    padding: 0px!important;
+}
+.p1{
+    font-family: IBMPlexSans-SemiBold;
+    font-size: 24px;
+    color: #060A24;
+    letter-spacing: 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:3rem;
+}
+.fa{
+    padding:0px 15px;
+    font-size: 18px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+a:hover{
+    text-decoration: none !important;
+    color:black !important;
+}
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+a:link{
+    text-decoration: none;
+    color:black;
+}
+
+.fotosInvitados{
+    width:100%;
+    height:25rem;
+}
+/* PARALLAX ------------------------------------------------------------------
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.parallax__layer--base {
+    transform: translateZ(0);
+}
+.parallax__layer--back {
+    transform: translateZ(-1px);
+} */
+
+
+
+
+/* MEDIA QUERIES */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .btnTitle{
+        width: 100%;
+    }
+    .title{
+        font-size: 36px;
+    }
+    .section1{
+        margin-left: 0px!important;
+    }
+    .subtitle{
+        width:100%;
+    }
+    .phoneImage{
+        width:100%;
+    }
+    .title2{
+        font-size: 36px;
+    }
+    .temas{
+        padding:0px;
+    }
+    .subtitle3{
+        width:100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .img-fluid{
+        display:block;
+        width:100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .temas{
+        padding:0px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
