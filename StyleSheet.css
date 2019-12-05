@@ -74,7 +74,7 @@ body{
 
 .section2 {
     position: relative;
-    background-image: url("img/1950s-traders-on-floor.jpg");/*linear-gradient( 225deg, #0000FF 0%, #0000A3 100%); */
+    background-image: url("Img/1950s-traders-on-floor.jpg");/*linear-gradient( 225deg, #0000FF 0%, #0000A3 100%); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
