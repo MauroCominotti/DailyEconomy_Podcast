@@ -84,9 +84,6 @@ body{
     flex-wrap: wrap;
 }
 
-.section3{
-    height:500px;
-}
 .section4{
     padding-bottom:9rem;
     position: relative;
@@ -117,16 +114,6 @@ body{
     height: 10vw;
     /* set height to pixels if you want angle to change with screen width */
 }
-
-.innerSection{
-    position: absolute;
-    top:20%;
-    left:10%;
-}
-
-.innerSection2{
-    margin:20% 0px;
-}
 .title{
     font-size: 64px;
     color: #060A24;
@@ -138,10 +125,6 @@ body{
     letter-spacing: 0;
     line-height: 24px;
     width: 57.6%;
-}
-
-.container3{
-    padding-left:50% !important;
 }
 .title3{
     font-size: 48px;
@@ -292,8 +275,8 @@ a:link{
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) {}
 
