@@ -363,8 +363,8 @@ input[type=checkbox]:not(:checked) + ul>li{
 } */
 
 .animated {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
@@ -466,7 +466,6 @@ input[type=checkbox]:not(:checked) + ul>li{
     .navbar-expand-sm .navbar-toggler {
         display: none
     }
-    
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -479,6 +478,7 @@ input[type=checkbox]:not(:checked) + ul>li{
     }
     .section1{
         margin-left: 0px!important;
+        margin-bottom:10%;
     }
     .subtitle{
         width:100%;
@@ -596,7 +596,7 @@ input[type=checkbox]:not(:checked) + ul>li{
         display: none
     }
     .section1{
-        margin-bottom:5%;
+        margin-bottom:0!important;
     }
 }
 
