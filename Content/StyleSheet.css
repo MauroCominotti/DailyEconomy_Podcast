@@ -457,6 +457,11 @@ input[type=checkbox]{
         margin-left:-200px;
         padding:2px 0px;
     }
+     a.nav-link{
+        height:0px;
+        display:block;
+        color:#ebebeb;
+    }
     a.nav-link:hover{
         color: white!important;
     }
@@ -466,11 +471,6 @@ input[type=checkbox]{
     }
     input[type=checkbox]:not(:checked) ~ ul li:hover{
         background: transparent;
-    }
-    a.nav-link{
-        height:0px;
-        display:block;
-        color:#ebebeb;
     }
     ul{
         height:0px;
@@ -482,10 +482,11 @@ input[type=checkbox]{
         height:160px;
         transition: height .8s ease-in-out;
     }
-    input[type=checkbox]:checked ~ ul>li, input[type=checkbox]:checked + ul>li>a{
+    input[type=checkbox]:checked ~ ul>li, input[type=checkbox]:checked ~ ul>li>a{
         animation:enter .9s ease; 
         color:black;
         height:40px;
+        width:100%;
         transition: height 1.1s ease-in-out;
         margin-left:0px;
     }
@@ -494,7 +495,7 @@ input[type=checkbox]{
         transition: height .9s ease-in-out;
     }
     
-    input[type=checkbox]:not(:checked) ~ ul>li, input[type=checkbox]:not(:checked) + ul>li>a{
+    input[type=checkbox]:not(:checked) ~ ul>li, input[type=checkbox]:not(:checked) ~ ul>li>a{
         animation:out .9s ease; 
         height:0px;
         transition: height .9s ease-in-out;
